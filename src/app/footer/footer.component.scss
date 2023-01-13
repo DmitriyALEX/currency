@@ -1,0 +1,69 @@
+.footer {
+	margin: 5px;
+	padding:5 px;
+}
+
+.footer_currency_info {
+	display: flex;
+	flex-direction: column; 
+	justify-content: center;
+	align-item: center;
+	margin: 0 auto;
+	text-align: center;
+	color: rgb(221, 221, 221);
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.footer_text {
+	display: flex;
+	flex-direction: column;
+	flex-direction: column; 
+	justify-content: center;
+	align-item: center;
+	margin: 0 auto;
+	text-align: center;
+	color: grey;
+}
+
+.footer_text {
+	margin: 20px;
+}
+
+.links {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-item: center;
+	padding-right: 20px;
+	margin-top: 20px;
+}
+
+.links_telegram {
+	display: flex;
+	justify-content: center;
+	align-item: center;
+	background-image: url("/assets/telegram.png");
+	width: 50px;
+  	height: 50px;
+   	margin: 0 auto;
+ 	background-position: center center;
+  	background-size: cover;
+  	margin-right: 10px;
+
+}
+
+.links_instagram {
+	display: flex;
+	justify-content: center;
+	align-item: center;
+	background-image: url("/assets/instagram.png");
+	width: 50px;
+  	height: 50px;
+   	margin: 0 auto;
+  	background-position: center center;
+  	background-size: cover;
+  	margin-left: 10px;
+}
+

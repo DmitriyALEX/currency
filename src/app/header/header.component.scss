@@ -1,0 +1,121 @@
+.header {
+	display: flex;
+	flex-direction: column; 
+	justify-content: center;
+	align-item: center;
+	margin: 0 auto; 
+}
+
+.title_header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  list-style-type: none;
+  padding: 10px;
+  font-size: 3.0em;
+  background: linear-gradient(90deg, #590863, #381581, #50130e,  #58611c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 20s ease-in;
+  animation-iteration-count: infinite;
+  background-size: 1000%;
+
+
+	@keyframes gradient {
+      0% {
+    background-position: 0 50%;
+    }
+      50% {
+    background-position: 100% 50%;
+    }
+       100% {
+    background-position: 0 50%;
+    }
+  }
+}
+
+.usd {
+	display: flex;
+	flex-direction: column; 
+	justify-content: center;
+	align-item: center;
+	margin: 0 auto;
+}
+
+.usd_title {
+	font-size: 30px;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	flex-direction: row;
+	margin: 0 auto;
+	margin-left: 20px;
+	color: rgb(199, 199, 250)
+}
+
+.usd_buy {
+	display: flex;
+	flex-direction: row;
+	color: rgb(153, 149, 183);
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.usd_sale {
+	display: flex;
+	flex-direction: row;
+	color: rgb(153, 149, 183);
+	font-size: 20px;
+	margin-top: 5px;
+}
+
+.buy_item_usd, 
+.sale_item_usd {
+	margin-right: 10px; 
+}
+
+.eur {
+	display: flex;
+	flex-direction: column; 
+	justify-content: center;
+	align-item: center;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.eur_title {
+	font-size: 30px;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	flex-direction: row;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-left: 20px;
+	color: rgb(199, 199, 250)
+}
+
+.eur_buy {
+	display: flex;
+	flex-direction: row;
+	color: rgb(153, 149, 183);
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.eur_sale {
+	display: flex;
+	flex-direction: row;
+	color: rgb(153, 149, 183);
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.buy_item_eur, 
+.sale_item_eur {
+	margin-right: 10px; 
+}
+

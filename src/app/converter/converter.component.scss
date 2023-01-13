@@ -1,0 +1,137 @@
+.converter {
+	 margin: 10 px;
+}
+
+.upConverter,
+.downConverter {
+  display: flex;
+  flex-direction: column;
+	display: flex;
+	flex-direction: column; 
+	justify-content: center;
+	align-item: center;
+	padding: 10px;
+}
+
+.upConverter {
+	display: flex;
+  flex-direction: row;	
+}
+
+.downConverter {
+	display: flex;
+  flex-direction: row;	
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(62, 19, 84);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: rgb(62, 19, 84);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: rgb(62, 19, 84);
+}
+
+.inputUp {
+  height: 25px;
+  border-color: rgb(44, 220, 55);
+  border-width: 3px;
+  color: rgb(0, 0, 0);
+	background: linear-gradient(90deg, #f7f2f9, #b197bf);
+  animation: gradient 20s ease-in;
+  animation-iteration-count: infinite;
+  background-size: 1000%;
+
+  @keyframes gradient {
+      0% {
+    background-position: 0 50%;
+    }
+      50% {
+    background-position: 100% 50%;
+    }
+       100% {
+    background-position: 0 50%;
+    }
+  }
+}
+
+.selectUp {
+  border-color: rgb(195, 23,35);
+  border-width: 3px;
+  background: linear-gradient(90deg, #f7f2f9, #b197bf);
+  animation: gradient 20s ease-in;
+  animation-iteration-count: infinite;
+  background-size: 1000%;
+
+  @keyframes gradient {
+      0% {
+    background-position: 0 50%;
+    }
+      50% {
+    background-position: 100% 50%;
+    }
+       100% {
+    background-position: 0 50%;
+    }
+  }
+}
+
+.inputDown {
+  height: 25px;
+  border-color: rgb(44, 220, 55);
+  border-width: 3px;
+  color: rgb(0, 0, 0);
+	background: linear-gradient(90deg, #b197bf, #f7f2f9);
+  animation: gradient 20s ease-in;
+  animation-iteration-count: infinite;
+  background-size: 1000%;
+
+  @keyframes gradient {
+      0% {
+    background-position: 0 50%;
+    }
+      50% {
+    background-position: 100% 50%;
+    }
+       100% {
+    background-position: 0 50%;
+    }
+  }
+}
+
+.selectDown {
+	border-color: rgb(195, 23,35);
+	border-width: 3px;
+	background: linear-gradient(90deg, #b197bf, #f7f2f9);
+  animation: gradient 20s ease-in;
+  animation-iteration-count: infinite;
+  background-size: 1000%;
+
+  @keyframes gradient {
+      0% {
+    background-position: 0 50%;
+    }
+      50% {
+    background-position: 100% 50%;
+    }
+       100% {
+    background-position: 0 50%;
+    }
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  }
+
+input:focus { 
+  outline: none !important;
+  border-color: #a15fe5;
+  box-shadow: 0 0 10px #a15fe5;
+}

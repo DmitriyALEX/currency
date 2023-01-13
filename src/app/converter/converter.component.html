@@ -1,0 +1,16 @@
+<div class="converter">
+<div class="upConverter">
+<input type="number" [(ngModel)]="valueUp" (input)="inputUpValue()" name="valueUp" placeholder="put number & select value" class="inputUp" onkeypress="return event.charCode >= 48" min="0" />
+  <select (change)="SelectItemUp($event)" [(ngModel)]="selectedUp" 
+  ng-options="option as name for option in currencyNames" class="selectUp">
+    <option *ngFor="let name of currencyNames" [value]="name">{{name}}</option>
+  </select>
+</div>
+
+<div class="downConverter">
+<input type="number" [(ngModel)]="valueDown"  (input)="inputDownValue()" name="valueDown" placeholder="put number & select value" class="inputDown" onkeypress="return event.charCode >= 48" min="0" />
+  <select  (change)="SelectItemDown($event)" [(ngModel)]="selectedDown" class="selectDown">
+    <option *ngFor="let name of currencyNames">{{name}}</option>
+  </select>
+</div>
+</div>
